@@ -1,0 +1,29 @@
+﻿Build started 20-Aug-20 2:34:36 PM.
+     1>Project "D:\C++\Project\ATMACC\ATMACC\ATMACC.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ATMACC.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'D:\C++\Project\ATMACC\Debug\ATMACC.exe' is denied.
+       InitializeBuildStatus:
+         Touching "Debug\ATMACC.unsuccessfulbuild".
+       ClCompile:
+         d:\โปรแกรม\VC2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ACC.cpp
+         ACC.cpp
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(61): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(66): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(87): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(99): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(120): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(121): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(135): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++\project\atmacc\atmacc\acc.cpp(136): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ATMACC.exe.embed.manifest.res" Debug\ATMACC_manifest.rc 
+       Link:
+         d:\โปรแกรม\VC2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\Project\ATMACC\Debug\ATMACC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ATMACC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C++\Project\ATMACC\Debug\ATMACC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\Project\ATMACC\Debug\ATMACC.lib" /MACHINE:X86 Debug\ATMACC.exe.embed.manifest.res
+         Debug\ACC.obj
+     1>LINK : fatal error LNK1104: cannot open file 'D:\C++\Project\ATMACC\Debug\ATMACC.exe'
+     1>Done Building Project "D:\C++\Project\ATMACC\ATMACC\ATMACC.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.86
